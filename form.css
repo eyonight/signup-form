@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+form{
+    width: 550px;
+    background-color: #fdf7f7;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: 1px solid rgb(55, 62, 168);
+    border-radius: 20px;
+}
+form .meta a{
+    width: 60px;
+    color: rgb(20, 17, 209);
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-decoration:none;
+    padding: 10px;
+    transition: 1s;
+}
+
+form .meta a:hover{
+    background-color: rgb(189, 189, 223);
+}
+
+button{
+    padding: 15px 20px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+p:nth-of-type(2){
+    color:blue;
+    margin-bottom: 25px
+}
+
+ p:nth-of-type(3) {
+        margin: 20px 0;
+        line-height: 1.1;
+}
+ p:last-child a {
+    text-decoration: none;
+    color:blue;
+    margin-left: 10px;
+}
+
